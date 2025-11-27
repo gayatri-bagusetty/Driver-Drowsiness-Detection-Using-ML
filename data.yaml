@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/TPW/Drowsiness Detection/train/augmented/
+val: /content/drive/MyDrive/TPW/Drowsiness Detection/valid/images
+test: /content/drive/MyDrive/TPW/Drowsiness Detection/test/images
+
+nc: 2
+names: ['awake', 'drowsy']
+
+roboflow:
+  workspace: augmented-startups
+  project: drowsiness-detection-cntmz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augmented-startups/drowsiness-detection-cntmz/dataset/1
